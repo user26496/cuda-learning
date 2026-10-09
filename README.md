@@ -1,15 +1,42 @@
 # CUDA & AI Infra Learning
 
-My journey learning CUDA programming and LLM infrastructure.
+My 6-month journey to become an AI infrastructure engineer.
 
-## Progress
+Started: 2026-10-09
 
-- [x] CUDA basics
-- [ ] Simon Boehm GEMM optimization (10 versions)
-- [ ] Read llm.c source
-- [ ] Rewrite one kernel in Triton
-- [ ] Read FlashAttention v1 paper
+## Roadmap
+
+### Phase 1 — Foundations (4 weeks)
+- [ ] Week 1-2: Learn C (C Primer Plus ch 1-11) → `c-practice` repo
+- [ ] Week 3: Rebuild nanoGPT from scratch → `my-nanogpt` repo
+- [ ] Week 4: Build micrograd → `my-micrograd` repo
+
+### Phase 2 — CUDA Reality (6 weeks)
+- [ ] Week 5-6: PMPP ch 1-10 + GPU MODE Lec 1-6 → `cuda-kernels` repo
+- [ ] Week 7-10: Simon Boehm GEMM 10 versions → `cuda-gemm` repo + blog
+
+### Phase 3 — First Serious Kernel (4 weeks)
+- [ ] Week 11: Triton tutorials → softmax/layernorm/matmul in Triton
+- [ ] Week 12-14: FlashAttention v1 forward in Triton → `my-flash-attention` repo + blog
+
+### Phase 4 — Inference Systems (6 weeks)
+- [ ] Week 15: Read nanoVLLM
+- [ ] Week 16-18: Read vLLM source → request lifecycle blog
+- [ ] Week 19-20: 5 serving papers → `papers-notes` repo
+- [ ] Week 21: First merged PR to vLLM/SGLang
+
+### Phase 5 — Specialize
+- [ ] Apply for summer internships
+- [ ] Pick a research direction
+
+## Repos
+
+- 🚧 `cuda-learning` (this one) — hub repo, notes & progress
+
+## Blog
+
+TBD
 
 ## Notes
 
-TBD
+See [notes.md](notes.md)
