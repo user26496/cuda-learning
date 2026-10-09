@@ -6,10 +6,12 @@ Started: 2026-10-09
 
 ## Roadmap
 
-### Phase 1 — Foundations (4 weeks)
-- [ ] Week 1-2: Learn C (C Primer Plus ch 1-11) → `c-practice` repo
-- [ ] Week 3: Rebuild nanoGPT from scratch → `my-nanogpt` repo
-- [ ] Week 4: Build micrograd → `my-micrograd` repo
+### Phase 1 — Foundations (~10 days)
+- [ ] Week 1: C refresh (vs C++) + pointer idioms → `c-practice` repo
+- [ ] Week 2: Rebuild nanoGPT independently (no video) → `my-nanogpt` repo
+- [ ] (Side quest) Rebuild micrograd blind → `my-micrograd` repo
+
+
 
 ### Phase 2 — CUDA Reality (6 weeks)
 - [ ] Week 5-6: PMPP ch 1-10 + GPU MODE Lec 1-6 → `cuda-kernels` repo
